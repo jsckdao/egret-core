@@ -57,7 +57,6 @@ module egret {
     function _error(code): void {
         throw new Error("#" + code );//使用这种方式报错能够终止后续代码继续运行
     }
-
     egret.$error = _error;
 
     function _warn():void {
